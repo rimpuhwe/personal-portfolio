@@ -1,10 +1,39 @@
 :root{
-    --header-background-color: #333333;
-    --background-color1:#2A2A2A;
-    --background-color2:#3C2F41;
+    --background-color1: #333333;
+    --background-color2:#ededed;
     --text-color:#E0E0E0;
-    --header-color:#B2D8B7;
-    --headings-color:#D4BFF9;
+    --header-color:#9be9a7;
+    --headings-color:#142435;
     --footer-color:#2C3E50;
-    --icon-color:#2E8B57;
+    --color1:#2e8b57;
+    --color2:#fa8072;
+    --color3:#da70d6;
+    --color4:#6b8e23;
+}
+/* header and navigation bar  */
+header{
+    background:var(--footer-color);
+}
+#nav-bar a{
+    color:var(--text-color);
+}
+#nav-bar a:hover{
+    color:var(--color3);
+    text-decoration: underline;
+}
+
+h2{
+    color:var(--headings-color);
+}
+#about h2{
+    border-bottom: 2px solid var(--color2);
+}
+#skills h2{
+    border-bottom: 2px solid var(--color3);
+}
+#portfolio h2{
+    border-bottom: 2px solid var(--color1)
+}
+#contact h2{
+    border-bottom: 2px solid var(--color4);
 }
