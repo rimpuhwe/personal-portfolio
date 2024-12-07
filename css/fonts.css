@@ -1,0 +1,7 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-bar a{
+    font-size: 18px;
+    font-weight: bold;
+}
