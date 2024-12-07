@@ -14,150 +14,177 @@
 <body>
     <!-- header section starts here -->
     <header>
-        <div id="logo">
-            <img src="./asset/0-bckgrnd logo 1.png" alt="logo">
+        <div id="profile">
+    
         </div>
         <nav id="nav-bar">
             <a href="#home">Home</a>
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
-            <a href="#projects">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#contact" target="_parent" rel="noreferrer">Contact</a>   
         </nav>
         <div id="profile">
-            <i class="fa fa-user" aria-hidden="true"></i>
         </div>
     </header>
     <!-- header-section ends here -->
     <!-- main-ection starts here -->
     <main>
         <!-- home-section -->
-        <section>
-            <h1>Hi , Welcome to My Page.</h1>
+        <section id="home">
             <h3>I'm Raissa Micheline IMPUHWE MANZI</h3>
             <p>Full-Stack Developer</p>
-            <div>
+            <div id="profile-container">
                 <img src="./asset/mm profile.png" alt="my-profile">
             </div>
         </section>
         <!--home-section ends here -->
         <!-- about-section starts here -->
-        <section>
+        <section id="about">
             <h2>about me</h3>
             <p>
-                Highly motivated and proactive with strong computer literacy skills, including JavaScript,
-                HTML/CSS proficiency, and a collaborative team spirit. 
-                Although lacking formal work experience, I am enthusiastic and eager to learn new technologies 
-                and contribute effectively to dynamic teams.  I am dedicated to continuous improvement and 
-                everaging my skills to add value in a professional setting.
+                As a passionate and dedicated Software Engineer/Web Developer, I thrive on transforming innovative ideas into reality
+                through code. With a solid foundation in front-end and back-end development, I specialize in creating seamless,
+                user-friendly web applications that not only meet but exceed client expectations. My journey in the tech world began
+                with a fascination for problem-solving and a love for technology, driving me to constantly learn and adapt to the
+                ever-evolving landscape of web development.
+            </p>
+            <p>
+                I have a knack for identifying and implementing the best technologies to optimize performance and enhance user experience.
+                Whether it's crafting elegant, responsive designs with HTML, CSS, and JavaScript,I'm committed to delivering high-quality solutions.
+                I believe in the power of collaboration and open communication, working closely with teams to ensure that every project is a success.
+            </p>
+            <p>
+                When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or sharing my
+                knowledge through blog posts and community events. My ultimate goal is to create impactful and sustainable digital experiences
+                that leave a lasting impression.
             </p>
         </section>
         <!-- about-section ends here -->
          <!-- skills-section starts here  -->
-        <section>
+        <section id="skills">
             <h2>my skills</h2>
-            <div>
-                <div>
+            <div id="container">
+                
                     <p>HTML</p>
-                    <div>
-                        <div>90.99%</div>
+                    <div class="rate-percent">
+                        <div class="rate rate-1">90.99%</div>
                     </div>
-                </div>
-                <div>
                     <p>CSS</p>
-                    <div>
-                        <div>82%</div>
+                    <div class="rate-percent">
+                        <div class="rate rate-2">82%</div>
                     </div>
-                </div>
-                <div>
                     <p>Javascript</p>
-                    <div>
-                        <div>70.5%</div>
+                    <div class="rate-percent">
+                        <div class="rate rate-3">70.5%</div>
                     </div>
-                </div>
-                <div>
                     <p>Typescript</p>
-                    <div>
-                        <div>30.39%</div>
+                    <div class="rate-percent">
+                        <div class="rate rate-4">30.39%</div>
                     </div>
-                </div>
-                <div>
                     <p>Figma</p>
-                    <div>
-                        <div>60%</div>
-                    </div>
-                </div>                
-                <div>
+                    <div class="rate-percent">
+                        <div class="rate rate-5">60%</div>
+                    </div>                
                     <p>Python</p>
-                    <div>
-                        <div>6.8%</div>
+                    <div class="rate-percent">
+                        <div class="rate rate-6">6.8%</div>
                     </div>
-                </div>                
+                               
             </div>
         </section>
         <!-- slills-section ends here -->
          <!-- portfolio-section starts here  -->
-        <section>
-            <h2>my work</h2>
-            <div>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div id="projects">
                 <!-- each project card starts here -->
                 <div class="project-card">
                     <img src="./asset/patience's at hospital.jpg" alt="Medical survey form">
-                    <h3>patient's suverying</h3>
-                    <p>A questionnaire used to collect health-related information from patients to improve healthcare services</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <div class="description">
+                        <h3>patient's suverying</h3>
+                        <p>
+                            A questionnaire used to collect health-related information from patients to improve healthcare services
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
                 <!-- each project card starts here -->
                 <div class="project-card">
                     <img src="./asset/mountain gorilla.jpg" alt="Tembera-u-rwanda campaign">
-                    <h3>visit rwanda campaign</h3>
-                    <p>Promotes Rwanda as a travel destination, highlighting its stunning scenery, unique experiences, and business opportunities</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <div class="description">
+                        <h3>visit rwanda campaign</h3>
+                        <p>
+                            Promotes Rwanda as a travel destination, highlighting its stunning scenery,
+                            unique experiences, and business opportunities
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
                 <!-- each project card starts here -->
                 <div class="project-card">
                     <img src="./asset/kotlin.jpg" alt="Documentation">
-                    <h3>Kotlin documentation</h3>
-                    <p>Comprehensive guides and references for the Kotlin programming language</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <div class="description">
+                        <h3>Kotlin documentation</h3>
+                        <p>
+                            Comprehensive guides and references for the Kotlin programming language, including syntax,
+                            libraries, and best practices for developers.
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
                 <!-- each project card starts here -->
                 <div class="project-card">
                     <img src="./asset/analytics.jpg" alt="analytics">
-                    <h3>data analytics</h3>
-                    <p>discover useful information, draw conclusions, and support decision-making</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <div class="description">
+                        <h3>data analytics</h3>
+                        <p>
+                            Inspecting, cleansing, transforming, and modeling data to discover useful information,
+                            draw conclusions, and support decision-making.
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
                 <!-- each project card starts here -->
                 <div class="project-card">
                     <img src="./asset/fashion blog.jpg" alt="fasion">
-                    <h3>fashion blog</h3>
-                    <p>A blog that covers the latest trends, fashion tips, and style inspiration</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <div class="description">
+                        <h3>fashion blog</h3>
+                        <p>
+                            A blog that covers the latest trends, fashion tips, and style inspiration,
+                            often featuring outfit ideas, and interviews with fashion influencers.
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
                 <!-- each project card starts here -->
                 <div class="project-card">
-                    <img src="./asset/morgage loan.jpg" alt="morgage-loan calculator">
-                    <h3>loan calculator</h3>
-                    <p>estimate your monthly mortgage payments,based on your loan amount, interest rate, and loan term</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <img src="./asset/morgage.jpg" alt="morgage-loan calculator">
+                    <div class="description">
+                        <h3>loan calculator</h3>
+                        <p>
+                            estimate your monthly mortgage payments,based on your loan amount,
+                            interest rate, and loan term
+                        </p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
                 </div>
                 <!-- each project card ends here -->
             </div>
         </section>
         <!-- portfolio-section ends here -->
         <!-- contact-section starts here -->
-        <section>
+        <section id="contact">
             <h2>reach me</h2>
             <form>
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
-                <textarea placeholder="Message..."></textarea>
+                <textarea placeholder="Message..." rows="5"></textarea>
                 <button type="submit">Send</button>
             </form>
         </section>
