@@ -1,10 +1,8 @@
 :root{
-    --background-color1: #333333;
-    --background-color2:#ededed;
-    --text-color:#E0E0E0;
-    --header-color:#9be9a7;
+    --primary-color:#2C3E50;
+    --secondary-color:#E0E0E0;
+    --tertiary-color:#17181c;
     --headings-color:#142435;
-    --footer-color:#2C3E50;
     --color1:#2e8b57;
     --color2:#fa8072;
     --color3:#da70d6;
@@ -12,10 +10,10 @@
 }
 /* header and navigation bar  */
 header{
-    background:var(--footer-color);
+    background:var(--primary-color);
 }
 #nav-bar a{
-    color:var(--text-color);
+    color:var(--secondary-color);
 }
 #nav-bar a:hover{
     color:var(--color3);
@@ -37,3 +35,36 @@ h2{
 #contact h2{
     border-bottom: 2px solid var(--color4);
 }
+/* skills-section */
+.rate-percent{
+    background: var(--secondary-color);
+}
+.rate{
+    background: var(--headings-color);
+    color:var(--secondary-color);
+}
+p{
+   color:var(--tertiary-color);
+}
+/* portfolio section and contact*/
+.description a ,button{
+    background: var(--headings-color);
+    color:var(--secondary-color);
+    transition: transform 0.5s ease, background .3s ease-in-out 
+}
+.description a:hover ,button:hover{
+    background: var(--secondary-color);
+    color:var(--headings-color);
+    transform: scale(1);
+}
+.description h3{
+    color:var(--headings-color);
+}
+.project-card{
+    box-shadow: 5px 5px 5px #f2f2f2,-5px -5px 5px #f2f2f2;
+    border:1px solid #ccc;
+}
+button:hover{
+    border:2px solid var(--headings-color);
+}
+
