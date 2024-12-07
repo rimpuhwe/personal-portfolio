@@ -1,7 +1,27 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* header */
 #nav-bar a{
     font-size: 18px;
     font-weight: bold;
+}
+/* skiils-section */
+#skills p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.rate{
+    font-weight: bold;
+}
+/* portfolio */
+.description a , button{
+    font-weight: 600;
+}
+/* contact */
+input{
+    font-size: 16px;
+}
+button{
+    font-size: 16px;
 }
