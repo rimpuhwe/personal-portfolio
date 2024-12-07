@@ -2,9 +2,18 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* header */
-#nav-bar a{
+#navbar a{
     font-size: 18px;
     font-weight: bold;
+}
+/* home section */
+.home h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home p{
+    font-size: 24px;
+    font-weight: lighter;
 }
 /* skiils-section */
 #skills p{
@@ -24,4 +33,9 @@ input{
 }
 button{
     font-size: 16px;
+}
+/* footer */
+footer i{
+    font-size:32px;
+    font-weight: bold;
 }

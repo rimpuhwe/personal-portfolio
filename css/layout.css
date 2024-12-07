@@ -15,16 +15,17 @@ header{
     padding:0 20px;
     position: fixed;
     top:0;
+    z-index: 1000;
 }
 /* navigation links  */
-#nav-bar{
+#navbar{
     width:60%;
     padding:10px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-#nav-bar a{
+#navbar a{
     text-decoration: none;
 }
 #profile{
@@ -34,12 +35,10 @@ header{
 main{
     width:100%;
     margin-top:43px;
-    border:2px solid red;
 }
 /* all sections */
 section{
     width:100%;
-    border:1px solid sienna;
     padding:40px 20px;
 }
 /* all h2 */
@@ -51,12 +50,14 @@ h2{
     letter-spacing: 2px;
 }
 /* section with id of home  */
-#home{
+.home{
     text-align: center;
     line-height: 30px;
+    height:100vh;
 }
-#home h3{
+.home h1{
     margin:30px 0 10px 0;
+
 }
 #profile-container{
     width:50%;
@@ -116,11 +117,11 @@ h2{
     gap:25px;
     
 }
-#projects .project-card {
+#projects .project-tile {
     width:30%;
     border-radius: 5px;
 }
-.project-card img{
+.project-tile img{
     width: 100%;
     height: 210px;
 }
@@ -158,7 +159,22 @@ button{
     text-align: center;
     border:1px solid transparent;
 }
-
+/* footer */
+footer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width:25%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer i{
+    padding:10px 20px;
+}
 
 
 
