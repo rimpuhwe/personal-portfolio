@@ -63,6 +63,9 @@ h2{
     width:50%;
     margin:20px auto;
 }
+#profile-container img{
+    max-height:420px;
+}
 /* about-section */
 #about p{
     padding:5px;
