@@ -76,10 +76,8 @@ footer i:hover{
     background:var(--secondary-color);
     color:var(--tertiary-color);
 }
-.download-btn:hover {
-  background: var(--primary-color);
-}
 .download-btn {
-  background: var(--headings-color);
-  color: white;
+  background:transparent;
+  border: 2px solid var(--tertiary-color);
+  color: var(--tertiary-color);
 }
