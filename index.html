@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/responsiveness.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome for social media icons -->
+    <script src="./js/contact.js" defer></script>
 </head>
 <body>
     <!-- header section starts here -->
@@ -189,11 +190,12 @@
         <!-- contact-section starts here -->
         <section id="contact">
             <h2>reach me</h2>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message..." rows="5"></textarea>
-                <button type="submit">Send</button>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" placeholder="Message..." rows="5" required></textarea>
+                <button type="submit" id="send-btn">Send</button>
+                <div id="form-status"></div>
             </form>
         </section>
         <!-- contact-section ends here -->
