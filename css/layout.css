@@ -189,12 +189,12 @@ footer i{
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  width:45%;
 }
 #downloads{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:2px solid red
+    width:100%;
+    border:2px solid red;
+    padding: 20px 0px ;
 }
 
 
